@@ -19,7 +19,7 @@ Open `index.html` in a modern browser, or serve this folder with any static file
 - **Services:** LED/LCD TV, motherboard, backlight, screen and power-board repair; electronics circuits, chip-level work, installation/uninstallation and troubleshooting
 - **Address:** 71/9, Shani Bazar Road, Kishangarh Village, Vasant Kunj, New Delhi, Delhi 110070
 - **Phone:** +91 96432 24873
-- **Hours:** Monday–Sunday, 10:00 AM–8:00 PM
+- **Hours:** Monday – Sunday, 8:00 AM – 8:00 PM
 - **Experience:** 20+ years
 
 The site avoids invented pricing, customer reviews, awards, certifications and service guarantees.
