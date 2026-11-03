@@ -57,6 +57,16 @@
     yearEl.textContent = new Date().getFullYear();
   }
 
+  const backToTop = document.querySelector(".floating-contact__top");
+  if (backToTop) {
+    const updateBackToTopVisibility = () => {
+      backToTop.classList.toggle("is-visible", window.scrollY > 420);
+    };
+
+    updateBackToTopVisibility();
+    window.addEventListener("scroll", updateBackToTopVisibility, { passive: true });
+  }
+
   const lightbox = document.getElementById("gallery-lightbox");
   const lightboxImage = lightbox ? lightbox.querySelector("img") : null;
   const lightboxCaption = lightbox ? lightbox.querySelector(".lightbox__caption") : null;

@@ -54,7 +54,7 @@
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
-  <div class="topline">
+  <div class="topline" id="page-top">
     <div class="container topline__inner">
       <span><i class="status-dot" aria-hidden="true"></i> Kishangarh · Vasant Kunj · New Delhi</span>
       <span>Open daily <b>Monday – Sunday, 8:00 AM – 8:00 PM</b></span>
@@ -273,11 +273,12 @@
 
   <footer class="footer">
     <div class="container footer__main">
-      <div><a class="brand brand--footer" href="#top" aria-label="Electronics India home"><img src="images/logo.svg" width="224" height="48" alt="Electronics India"></a><p>Professional LED TV repair &amp; electronics services.<br>Kishangarh, Vasant Kunj, New Delhi.</p></div>
-      <div class="footer__links"><span>EXPLORE</span><a href="#about">About us</a><a href="services.html">Our services</a><a href="#gallery">Repair photos</a><a href="#contact">Contact</a></div>
-      <div class="footer__contact"><span>GET IN TOUCH</span><a href="tel:+919643224873">+91 96432 24873</a><small>Monday – Sunday, 8:00 AM – 8:00 PM</small><a class="footer__whatsapp" href="https://wa.me/919643224873?text=Hello%20Electronics%20India%2C%20I%20need%20help%20with%20an%20electronics%20repair." target="_blank" rel="noopener noreferrer">WhatsApp us ↗</a></div>
+      <div class="footer__brand"><a class="brand brand--footer" href="#top" aria-label="Electronics India home"><img src="images/logo.svg" width="224" height="48" alt="Electronics India"></a><p>Professional LED TV repair &amp; electronics services.<br>Kishangarh, Vasant Kunj, New Delhi.</p></div>
+      <nav class="footer__links" aria-label="Quick links"><span>Quick Links</span><a href="#about">About us</a><a href="#services">Our services</a><a href="#gallery">Repair photos</a><a href="#why-us">Why choose us</a><a href="#contact">Contact us</a></nav>
+      <nav class="footer__links footer__services" aria-label="Brands we repair"><span>Brands We Repair</span><a href="services.html#led-tv-repair">Samsung TV Repair</a><a href="services.html#led-tv-repair">Sony Bravia Repair</a><a href="services.html#led-tv-repair">LG LED TV Repair</a><a href="services.html#led-tv-repair">Panasonic TV Repair</a><a href="services.html#led-tv-repair">Mi &amp; RealMe Smart TV</a><a href="services.html#led-tv-repair">OnePlus &amp; Sanyo TV</a></nav>
+      <div class="footer__contact"><span>Technical Support</span><a class="footer__address" href="https://www.google.com/maps/search/?api=1&amp;query=71%2F9%2C%20Shani%20Bazar%20Road%2C%20Kishangarh%20Village%2C%20Vasant%20Kunj%2C%20New%20Delhi%2C%20Delhi%20110070" target="_blank" rel="noopener noreferrer">71/9, Shani Bazar Road, Kishangarh Village, Vasant Kunj, New Delhi, Delhi 110070</a><a class="footer__phone" href="tel:+919643224873">+91 96432 24873</a><small>Monday – Sunday, 8:00 AM – 8:00 PM</small><a class="footer__whatsapp" href="https://wa.me/919643224873?text=Hello%20Electronics%20India%2C%20I%20need%20help%20with%20an%20electronics%20repair." target="_blank" rel="noopener noreferrer">WhatsApp us ↗</a></div>
     </div>
-    <div class="container footer__bottom"><span>© <span id="current-year">2026</span> Electronics India. All rights reserved.</span><span>Owner: Mantun Kumar · New Delhi, India</span><a href="#top">Back to top ↑</a></div>
+    <div class="container footer__bottom"><span>© <span id="current-year">2026</span> Electronics India. All rights reserved.</span><span>Owner: Mantun Kumar · New Delhi, India</span><a href="#page-top">Back to top ↑</a></div>
   </footer>
 
   <dialog class="lightbox" id="gallery-lightbox" aria-label="Repair photo viewer">
@@ -285,12 +286,15 @@
     <img src="" alt="">
     <p class="lightbox__caption"></p>
   </dialog>
-  <div class="floating-contact" aria-label="Quick contact">
+  <div class="floating-contact" role="group" aria-label="Quick contact">
     <a class="floating-contact__button floating-contact__button--call" href="tel:+919643224873" aria-label="Call Electronics India at +91 96432 24873" title="Call Electronics India">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8a15 15 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.2 11 11 0 0 0 3.4.5 1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17.8 17.8 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1 11 11 0 0 0 .5 3.4 1 1 0 0 1-.2 1z"/></svg>
+      <span class="floating-contact__button-label">Call now</span>
     </a>
+    <a class="floating-contact__top" href="#page-top" aria-label="Back to top" title="Back to top"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m5 15 7-7 7 7"/></svg></a>
     <a class="floating-contact__button floating-contact__button--whatsapp" href="https://wa.me/919643224873" target="_blank" rel="noopener noreferrer" aria-label="Chat with Electronics India on WhatsApp" title="Chat on WhatsApp">
       <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.52 3.48A11.82 11.82 0 0 0 12.1 0C5.56 0 .23 5.32.23 11.86c0 2.09.55 4.13 1.6 5.93L.13 24l6.37-1.67a11.88 11.88 0 0 0 5.6 1.42h.01c6.54 0 11.86-5.32 11.87-11.86a11.8 11.8 0 0 0-3.46-8.41ZM12.1 21.74a9.9 9.9 0 0 1-5.04-1.38l-.36-.21-3.78.99 1.01-3.68-.24-.38a9.85 9.85 0 0 1-1.51-5.22c0-5.47 4.45-9.92 9.93-9.92a9.86 9.86 0 0 1 7.02 2.91 9.86 9.86 0 0 1 2.9 7.03c0 5.48-4.45 9.93-9.93 9.93Zm5.45-7.43c-.3-.15-1.77-.87-2.04-.97-.28-.1-.48-.15-.68.15-.2.3-.78.97-.96 1.17-.18.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.5-.9-.8-1.5-1.78-1.68-2.08-.18-.3-.02-.46.13-.61.13-.13.3-.35.45-.53.15-.18.2-.3.3-.5.1-.2.05-.38-.03-.53-.07-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51h-.57c-.2 0-.53.07-.8.38-.28.3-1.06 1.03-1.06 2.5 0 1.48 1.08 2.9 1.23 3.1.15.2 2.13 3.25 5.16 4.56.72.31 1.28.5 1.72.64.73.23 1.4.2 1.92.12.59-.09 1.77-.73 2.02-1.43.25-.7.25-1.3.18-1.43-.08-.13-.28-.2-.58-.35Z"/></svg>
+      <span class="floating-contact__button-label">WhatsApp</span>
     </a>
   </div>
 </body>
